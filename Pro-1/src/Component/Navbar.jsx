@@ -1,4 +1,4 @@
-import logo from '../assets/logo.png'
+import logo4 from '../assets/logo4.png'
 
 import{BsFillPersonLinesFill} from 'react-icons/bs'
 import { FaGithub,FaLinkedinIn } from 'react-icons/fa'
@@ -9,16 +9,16 @@ function Navbar(){
         <>
         <div className=" w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
            <div>
-           <img src={logo} alt='logo image' style={{width:"250px"}}></img>
+           <img src={logo4} alt='logo image' style={{width:"250px"}}></img>
 
             </div>
          {/* menu */}
            <div>
             <ul className='flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Work</li>
+                <li className='hover:scale-125 duration-300'>Home</li>
+                <li className='hover:scale-125 duration-300'>About</li>
+                <li className='hover:scale-125 duration-300'>Contact</li>
+                <li className='hover:scale-125 duration-300'>Work</li>
             </ul>
            </div>
 
@@ -32,14 +32,14 @@ function Navbar(){
         <div className='flex fixed flex-col top-[35%] left-0'>
               <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a  className="flex justify-between items-center w-full text-gray-300" href='https://www.linkedin.com/in/rupesh-gaur-5304b01b7/'>
+                    <a  className="flex justify-between items-center w-full text-gray-300" href='https://www.linkedin.com/in/rupesh-gaur-5304b01b7/' target='_blank'>
                         LinkedIn <FaLinkedinIn size={30}></FaLinkedinIn>
                     </a>
 
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-600'>
-                    <a  className="flex justify-between items-center w-full text-gray-300"href='/'>
+                    <a  className="flex justify-between items-center w-full text-gray-300"href='https://github.com/Rupesh-Gaur200' target='_blank'>
                         Github <FaGithub   size={30}></FaGithub>
                     </a>
 
