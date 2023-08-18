@@ -1,5 +1,6 @@
 import Navbar from "./Component/Navbar"
 import Home from "./Component/Home"
+import About from "./Component/About"
 function App() {
  
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar></Navbar>
   <Home></Home>
+  <About></About>
     </>
   )
 }
