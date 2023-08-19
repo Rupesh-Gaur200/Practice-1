@@ -19,6 +19,7 @@ function Navbar(){
                 <li className='hover:scale-125 duration-300'>About</li>
                 <li className='hover:scale-125 duration-300'>Contact</li>
                 <li className='hover:scale-125 duration-300'>Work</li>
+                <li className='hover:scale-125 duration-300'>Tech Stack</li>
             </ul>
            </div>
 
