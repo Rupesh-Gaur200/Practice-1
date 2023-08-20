@@ -9,7 +9,7 @@ function Navbar(){
         <>
         <div className=" w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
            <div>
-           <img src={logo4} alt='logo image' style={{width:"250px"}}></img>
+           <img   src={logo4} alt='logo image' style={{width:"250px"}}></img>
 
             </div>
          {/* menu */}
