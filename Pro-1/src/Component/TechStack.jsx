@@ -25,34 +25,38 @@ const data =[
 
 function TechStack(){
     return (
-          <>
+         
              <div className=" w-full h-screen bg-[#0a192f] text-gray-300 pt-20">
-                <div className=" flex justify-space-around">
-                
-                <h1 className="text-4xl font-bold inline border-b-4 border-purple-600 cursor-pointer hover:translate-x-(-5) hover:scale-125 duration-300">
+                    <div className=" flex justify-center mb-28">
+                     <h1 className="text-4xl font-bold inline border-b-4 border-purple-600 cursor-pointer hover:translate-x-(-5) hover:scale-125 duration-300">
                     TechStack
-                </h1>
+                     </h1>
 
-                </div>
+                     </div>
+                 
 
-                <div className="flex justify-between">
+
+                 <div className="flex justify-center  max-w-[100%] border-blue-700 border-solid">
+               
+               
+                           <div className="flex gap-8 justify-center ">
                   
-                  {
+                       {
 
-                      data.map((d)=>{
-                        return(
-                            <div className=" bg-[#0a192f] " style={{width:"220px"}} key={d.id}>
+                         data.map((d)=>{
+                          return(
+                            <div className="  bg-[#0a192f] " style={{width:"220px"}} key={d.id}>
                               <img src={d.img}></img>
 
                             </div>
                         )
-                      })
+                         })
 
 
 
-                  }
-                  </div>
-                 
+                       }
+                            </div>
+                    </div>
 
 
 
@@ -64,7 +68,7 @@ function TechStack(){
 
 
 
-          </>
+         
     )
 }
 
