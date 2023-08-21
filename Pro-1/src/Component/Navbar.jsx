@@ -4,6 +4,8 @@ import{BsFillPersonLinesFill} from 'react-icons/bs'
 import { FaGithub,FaLinkedinIn } from 'react-icons/fa'
 import{HiOutlineMail} from 'react-icons/hi'
 
+import { Link } from 'react-scroll'
+
 function Navbar(){
     return(
         <>
@@ -14,12 +16,12 @@ function Navbar(){
             </div>
          {/* menu */}
            <div>
-            <ul className='flex'>
-                <li className='hover:scale-125 duration-300'>Home</li>
-                <li className='hover:scale-125 duration-300'>About</li>
-                <li className='hover:scale-125 duration-300'>Contact</li>
-                <li className='hover:scale-125 duration-300'>Work</li>
-                <li className='hover:scale-125 duration-300'>Tech Stack</li>
+            <ul className='flex gap-8'>
+                <Link to="/" spy={true} smooth={true} offset={50} duration={500} className='hover:scale-125 duration-300 cursor-pointer'>Home</Link>
+                <Link to="About"  spy={true} smooth={true} offset={50} duration={500} className='hover:scale-125 duration-300 cursor-pointer'>About</Link>
+                <Link className='hover:scale-125 duration-300 cursor-pointer'>Contact</Link>
+                <Link className='hover:scale-125 duration-300 cursor-pointer'>Work</Link>
+                <Link  to="Tech Stack" spy={true} smooth={true} offset={50} duration={500} className='hover:scale-125 duration-300 cursor-pointer'>Tech Stack</Link>
             </ul>
            </div>
 

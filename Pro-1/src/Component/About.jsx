@@ -3,7 +3,7 @@
 
 function About(){
     return (
-        <div className=" w-full h-screen bg-[#0a192f] text-gray-300">
+        <div name="About"className="  w-full h-screen bg-[#0a192f] text-gray-300">
             <div className=" flex flex-col justify-centerout items-center w-full h-full">
                <div className="max-w-[800px] w-full px-4 grid grod-col-2 gap-8">
                <div className=" cursor-pointer hover:translate-x-(-5) hover:scale-125 duration-300 sm:text-right pb-8 pl-4">
