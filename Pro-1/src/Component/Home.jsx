@@ -11,7 +11,7 @@ function Home(){
          <p className="text-gray-400 py-4 ">Web Developer | Proficient in JavaScript, HTML, CSS, and Masterful with React Library | Ardent MERN Stack Enthusiast 🌐|Passionate Explorer of the IoT Domain</p>
         
          <div>
-        <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-600 hover:border-purple-600">View Work 
+        <button to="Work" spy={true} smooth={true} offset={50} duration={500} className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-600 hover:border-purple-600">View Work 
         
         <span className="group-hover:rotate-90 duration-300">
         <HiArrowNarrowRight className="ml-3 "></HiArrowNarrowRight>

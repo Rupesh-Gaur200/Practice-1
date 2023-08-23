@@ -13,8 +13,8 @@ function App() {
   <Home></Home>
   <About></About>
   <TechStack></TechStack>
-  {/* <Contact></Contact>
-  <Work></Work> */}
+  
+  <Work></Work> 
     </>
   )
 }
