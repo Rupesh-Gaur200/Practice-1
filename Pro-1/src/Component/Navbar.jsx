@@ -1,5 +1,5 @@
 import logo4 from '../assets/logo4.png'
-
+import cv from '../assets/cv.pdf'
 import{BsFillPersonLinesFill} from 'react-icons/bs'
 import { FaGithub,FaLinkedinIn } from 'react-icons/fa'
 import{HiOutlineMail} from 'react-icons/hi'
@@ -50,7 +50,7 @@ function Navbar(){
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-violet-600'>
-                    <a  className="flex justify-between items-center w-full text-gray-300"href='/'>
+                    <a  href={cv} target="_blank"className="flex justify-between items-center w-full text-gray-300">
                         Resume <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
                     </a>
 
