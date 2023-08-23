@@ -20,8 +20,8 @@ function Navbar(){
                 <Link to="/" spy={true} smooth={true} offset={50} duration={500} className='hover:scale-125 duration-300 cursor-pointer'>Home</Link>
                 <Link to="About"  spy={true} smooth={true} offset={50} duration={500} className='hover:scale-125 duration-300 cursor-pointer'>About</Link>
                 <Link  to="Tech Stack" spy={true} smooth={true} offset={50} duration={500} className='hover:scale-125 duration-300 cursor-pointer'>Tech Stack</Link>
-                <Link to className='hover:scale-125 duration-300 cursor-pointer'>Contact</Link>
-                <Link className='hover:scale-125 duration-300 cursor-pointer'>Work</Link>
+                {/* <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} className='hover:scale-125 duration-300 cursor-pointer'>Contact</Link>
+                <Link to="Work" spy={true} smooth={true} offset={50} duration={500} className='hover:scale-125 duration-300 cursor-pointer'>Work</Link> */}
 
             </ul>
            </div>

@@ -1,30 +1,34 @@
 
-
+import csslogo from '../assets/csslogo.png'
+import Htmllogo from '../assets/Htmllogo.png'
+import JavaScriptlogo from '../assets/JavaScriptlogo.png'
+import MongoDblogo from '../assets/MongoDblogo.png'
+import ReactLogo from '../assets/reactlogo.png'
 const data =[
     {
         id:"1",
-        img:"https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
+        img:csslogo,
         Title:"React js"
        } ,
     {
         id:"3",
-        img:"https://i.stack.imgur.com/kyKz5.png",
+        img:Htmllogo,
         Title:"React js"
 
     },
 
     {
         id:"4",
-        img:"https://i.stack.imgur.com/kyKz5.png",
+        img:JavaScriptlogo,
         Title:"React js"
     },
     {
         id:"5",
-        img:"https://i.stack.imgur.com/kyKz5.png",
+        img:MongoDblogo,
         Title:"React js"
     },{
         id:"6",
-        img:"https://i.stack.imgur.com/kyKz5.png",
+        img:ReactLogo,
         Title:"React js"
     }
 ];
