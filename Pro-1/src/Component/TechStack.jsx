@@ -8,24 +8,24 @@ const data =[
     {
         id:"1",
         img:csslogo,
-        Title:"React js"
+        Title:"Css"
        } ,
     {
         id:"3",
         img:Htmllogo,
-        Title:"React js"
+        Title:"Html5"
 
     },
 
     {
         id:"4",
         img:JavaScriptlogo,
-        Title:"React js"
+        Title:"JavaScript"
     },
     {
         id:"5",
         img:MongoDblogo,
-        Title:"React js"
+        Title:"MongoDb"
     },{
         id:"6",
         img:ReactLogo,
@@ -56,7 +56,7 @@ function TechStack(){
                          data.map((d)=>{
                           return(
                             <div className="  bg-[#0a192f] " style={{width:"220px"}} key={d.id} >
-                              <img src={d.img}></img>
+                              <img  className=" w-32 ml-12 "  src={d.img}></img>
                               <div className="flex justify-center mt-6 ">
                               <h1 className="text-2xl font-semibold font-gray-300">{d.Title}</h1>
                              </div>
