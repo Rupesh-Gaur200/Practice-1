@@ -55,8 +55,10 @@ function TechStack(){
 
                          data.map((d)=>{
                           return(
-                            <div className="  bg-[#0a192f] " style={{width:"220px"}} key={d.id} >
+                            <div className="shadow-2xl hover:scale-105 duration-300  bg-[#0d274efd] " style={{width:"220px"}} key={d.id} >
+                                <div>
                               <img  className=" w-32 ml-12 "  src={d.img}></img>
+                              </div>
                               <div className="flex justify-center mt-6 ">
                               <h1 className="text-2xl font-semibold font-gray-300">{d.Title}</h1>
                              </div>

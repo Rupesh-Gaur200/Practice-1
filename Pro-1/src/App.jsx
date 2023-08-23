@@ -13,8 +13,8 @@ function App() {
   <Home></Home>
   <About></About>
   <TechStack></TechStack>
-  
   <Work></Work> 
+  <Contact></Contact>
     </>
   )
 }
