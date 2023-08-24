@@ -62,8 +62,8 @@ function Work(){
                                   </div>
 
 
-                                  <div className="mt-8">
-                                    <a className="border-2  pl-1 pr-1 pt-1 pb-1" >See more</a>
+                                  <div className=" group hover:bg-purple-600     mt-8">
+                                    <a className="group-hover:cursor-pointer border-2 hover:bg-purple-600 pl-1 pr-1 pt- pb-1" >See more</a>
                                   </div>
 
                                 </div>
