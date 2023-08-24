@@ -39,30 +39,31 @@ function Work(){
     
             <div className="flex justify-start pl-56  duration-300  " >
                 
-                <div className=" cursor-pointer hover:scale-125 duration-300 pb-8 pl-4 pr-8">
+                <div className=" cursor-pointer hover:scale-125 duration-300  pl-4 pr-8 pb-8 mb-32">
                 <h1 className=" text-4xl font-bold inline border-b-4 border-purple-600 duration-300 ">Work</h1>
             </div>
             </div>
           
-               <div className="w-full h-screen flex justify-center items-center ">
+               <div className="w-full h-screen flex justify-center items-start
+                gap-8 ">
 
                   
                         {
 
                           data2.map((t)=>{
                             return(
-                                <div className="w-56 h-56" key={t.id}>
-                                   <div>
-                                    <img src={t.img} ></img>
+                                <div className=" border rounded-lg border-none 2 hover:scale-110 duration-300 w-56 h-72 flex flex-col gap-3 items-center bg-[rgb(75,90,111)] "  key={t.id}>
+                                   <div className="border border-none rounded-lg">
+                                    <img  className="shadow-inner rounded-lg"src={t.img} ></img>
                                     </div>  
-                                  <div>
+                                  <div >
                                         <h1>{t.tiltle}</h1>
 
                                   </div>
 
 
-                                  <div>
-                                    <button>See more..</button>
+                                  <div className="mt-8">
+                                    <a className="border-2  pl-1 pr-1 pt-1 pb-1" >See more</a>
                                   </div>
 
                                 </div>
