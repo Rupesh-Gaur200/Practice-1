@@ -8,10 +8,7 @@ const[email, setEmail] =useState("");
 
 const [msg , setMsg] =useState("");
 
-function handleClickto(){
-    e.preventDefault()
-    
-}
+
 
     return (
         
@@ -24,15 +21,15 @@ function handleClickto(){
               
               <div className="w-[800px] h-[500px]  flex justify-center pr-8 ">
                  <div className="  w-[625px] h-[450px] ml-8 mt-4">
-                <form className=" flex flex-col gap-8">
+                <form action="https://getform.io/f/9a137ae2-dd7f-4f00-b029-789815a9d27d" method="post" className=" flex flex-col gap-8">
                     
-                    <input placeholder="Name" value={name} onChange={(e)=>setName(e.target.value)}className="ml-3 mt-3  mr-3  h-8 pl-3"type="text" ></input>
-                    <input onChange={(e)=>{setEmail(e.target.value)}} value={email} placeholder="Email"className="ml-3 mt-3 mr-3  h-8 pl-3" type="text" ></input>
+                    <input  placeholder="Name" value={name} onChange={(e)=>setName(e.target.value)} name="name"className="ml-3 mt-3  mr-3  h-8 pl-3 text-black"type="text" ></input>
+                    <input onChange={(e)=>{setEmail(e.target.value)}} value={email} placeholder="Email" name="email"className="ml-3 mt-3 mr-3  h-8 pl-3 text-black" type="text" ></input>
                     <textarea onChange={(e)=>{
                         setMsg(e.target.value)
-                    }}  value={msg} placeholder="Drop a Message here"className="ml-3 mt-3 mr-3 pl-3  h-[200px]"type="text" ></textarea>
+                    }}  value={msg} placeholder="Drop a Message here" name="Message"className="ml-3 mt-3 mr-3 pl-3  h-[200px] text-black"type="text" ></textarea>
                      
-                      <button type="submit" onClick={handleClickto}className="border-2 border-white w-[200px] ml-52 h-10  hover:bg-pink-500 hover:scale-110 duration-300">Let's Collabrate</button>
+                      <button  type ="Submit"className="border-2 border-white w-[200px] ml-52 h-10  hover:bg-pink-500 hover:scale-110 duration-300">Let's Collabrate</button>
                    
 
 
