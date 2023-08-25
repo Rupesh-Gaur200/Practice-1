@@ -62,7 +62,7 @@ function Navbar(){
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600'>
-                    <button onclick={HandleClick} className="flex justify-between items-center w-full text-gray-300">
+                    <button onClick={HandleClick} className="flex justify-between items-center w-full text-gray-300">
                         Drop Message <HiOutlineMail  size={30}></HiOutlineMail>
                     </button>
 

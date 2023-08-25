@@ -1,14 +1,18 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-function handle(to){
- 
-    
-   scroll.scrollTo(2285)
-  
-}
+
 
 function Home(){
+
+
+  function handle(to){
+ 
+    
+    scroll.scrollTo(2285)
+   
+ }
+ 
   return(
     <div className=" w-full h-screen bg-[#0a192f]">
 
