@@ -4,7 +4,12 @@ import{BsFillPersonLinesFill} from 'react-icons/bs'
 import { FaGithub,FaLinkedinIn } from 'react-icons/fa'
 import{HiOutlineMail} from 'react-icons/hi'
 
-import { Link } from 'react-scroll'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+function HandleClick(to){
+
+    scroll.scrollTo(4000)
+}
 
 function Navbar(){
     return(
@@ -57,9 +62,9 @@ function Navbar(){
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600'>
-                    <a  className="flex justify-between items-center w-full text-gray-300"href='/'>
-                        Gmail <HiOutlineMail size={30}></HiOutlineMail>
-                    </a>
+                    <button onclick={HandleClick} className="flex justify-between items-center w-full text-gray-300">
+                        Drop Message <HiOutlineMail  size={30}></HiOutlineMail>
+                    </button>
 
                 </li>
               </ul>
